@@ -112,5 +112,7 @@ genTidy2 <- function(rawData) {
 tidy1 <- genTidy1()
 tidy2 <- genTidy2(tidy1)
 write.csv(tidy1,file="tidy1.csv")
-write.csv(tidy2,file="tidy2.csv")
+#write.csv(tidy2,file="tidy2.csv")
+
+write.table(tidy2, "tidy2.txt", row.names = FALSE)
 

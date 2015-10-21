@@ -2,7 +2,6 @@
 title: "CodeBook"
 author: "grace cao"
 date: "October 21, 2015"
-output: html_document
 ---
 
 This document provides information about the generated sets by the script run_analysis.R, provided in this repository.
